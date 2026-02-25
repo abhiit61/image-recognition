@@ -10,31 +10,6 @@ A Java-based machine learning application that uses **Deep Java Library (DJL)** 
 
 ---
 
-
-Gemini said
-Based on the image of your project, you are using a specific subfolder structure within your resources. Here is the updated Project Structure section for your README.md to reflect your exact setup.
-
-📂 Project Structure
-To ensure the PathMatchingResourcePatternResolver correctly locates your images, follow the directory structure shown below. Your images are stored in the resources/images directory.
-
-image-predictor/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com.abhi.imagep/
-│       │       └── ImagePredictor.java   <-- Your Main Class
-│       └── resources/
-│           └── images/                   <-- Image Storage Location
-│               ├── book.jpg
-│               ├── coffee_mug.jpg
-│               ├── laptop.jpg
-│               ├── pill_bottle.png       <-- Default Image
-│               └── ... (other images)
-├── pom.xml                               <-- Maven Dependencies
-└── README.md
-
----
-
 ## 🛠️ Prerequisites
 
 * **JDK 17** or higher.
