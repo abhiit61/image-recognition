@@ -17,7 +17,6 @@ Based on the image of your project, you are using a specific subfolder structure
 📂 Project Structure
 To ensure the PathMatchingResourcePatternResolver correctly locates your images, follow the directory structure shown below. Your images are stored in the resources/images directory.
 
-Plaintext
 image-predictor/
 ├── src/
 │   └── main/
@@ -27,6 +26,9 @@ image-predictor/
 │       └── resources/
 │           └── images/                   <-- Image Storage Location
 │               ├── book.jpg
+│               ├── coffee_mug.jpg
+│               ├── laptop.jpg
+│               ├── pill_bottle.png       <-- Default Image
 │               └── ... (other images)
 ├── pom.xml                               <-- Maven Dependencies
 └── README.md
