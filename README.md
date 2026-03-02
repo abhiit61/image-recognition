@@ -74,6 +74,3 @@ Ensure your `pom.xml` includes the following DJL stacks:
 * `ai.djl.pytorch:pytorch-model-zoo`
 * `org.springframework:spring-core` (for the Resource Resolver)
 
----
-
-**Would you like me to help you add a specialized `Translator` to handle different image aspect ratios more accurately?**
